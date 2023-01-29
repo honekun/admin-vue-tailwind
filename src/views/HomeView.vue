@@ -1,19 +1,8 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import {
-  mdiAccountMultiple,
-  mdiChartTimelineVariant,
-  mdiMonitorCellphone,
-  mdiReload,
-  mdiGithub,
-  mdiChartPie,
-} from "@mdi/js";
+import { mdiChartTimelineVariant, mdiGithub } from "@mdi/js";
 import * as chartConfig from "@/components/Charts/chart.config.js";
-import LineChart from "@/components/Charts/LineChart.vue";
 import SectionMain from "@/components/SectionMain.vue";
-import CardBox from "@/components/CardBox.vue";
-import TableSampleClients from "@/components/TableSampleClients.vue";
-import NotificationBar from "@/components/NotificationBar.vue";
 import BaseButton from "@/components/BaseButton.vue";
 import LayoutGuest from "@/layouts/LayoutGuest.vue";
 import SectionTitleLineWithButton from "@/components/SectionTitleLineWithButton.vue";
