@@ -1,13 +1,21 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import Style from "@/views/StyleView.vue";
 import Home from "@/views/HomeView.vue";
 
 const routes = [
   {
     meta: {
-      title: "Select style",
+      title: "Home",
     },
     path: "/",
+    name: "home",
+    component: Home,
+  },
+  {
+    meta: {
+      title: "Select style",
+    },
+    path: "/styles",
     name: "style",
     component: Style,
   },
@@ -19,7 +27,7 @@ const routes = [
     },
     path: "/dashboard",
     name: "dashboard",
-    component: Home,
+    component: () => import("@/views/DashboardView.vue"),
   },
   {
     meta: {
@@ -77,10 +85,14 @@ const routes = [
     name: "error",
     component: () => import("@/views/ErrorView.vue"),
   },
+  // Catch all for incorrect routes.
+  // See https://router.vuejs.org/guide/essentials/history-mode.html#html5-history-mode
+  { path: "/:pathMatch(.*)", component: () => import("@/views/NotFound.vue") },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  // See https://router.vuejs.org/guide/essentials/history-mode.html#html5-history-mode
+  history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
     return savedPosition || { top: 0 };

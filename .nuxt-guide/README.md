@@ -1,6 +1,6 @@
 # Free Nuxt 3.x Vue 3.x Tailwind 3.x Dashboard
 
-This guide will help you integrate your Nuxt.js 3.x application with [Admin One - free Vue 3 Tailwind 3 Admin Dashboard with dark mode](https://github.com/justboil/admin-one-vue-tailwind).
+This guide will help you integrate your Nuxt.js 3.x application with [Admin Two - free Vue 3 Tailwind 3 Admin Dashboard with dark mode](https://github.com/justboil/admin-two-vue-tailwind).
 
 **Please note:** this document is work in progress and Nuxt 3 is in Release Candidate state, so some things can be missing and warnings may occur.
 
@@ -31,9 +31,9 @@ npm install --legacy-peer-deps pinia @pinia/nuxt
 
 ### Copy styles, components and scripts
 
-Now clone [justboil/admin-one-vue-tailwind](https://github.com/justboil/admin-one-vue-tailwind) project somewhere locally (into any separate folder)
+Now clone [justboil/admin-two-vue-tailwind](https://github.com/justboil/admin-two-vue-tailwind) project somewhere locally (into any separate folder)
 
-Next, copy these files **from justboil/admin-one-vue-tailwind project** directory **to nuxt project** directory:
+Next, copy these files **from justboil/admin-two-vue-tailwind project** directory **to nuxt project** directory:
 
 * Copy `tailwind.config.js` to `/`
 * Copy `src/components` to `components/`
@@ -94,7 +94,7 @@ import { darkModeKey, styleKey } from '@/config.js'
 
 useHead({
   titleTemplate: (titleChunk) => {
-    const titleBase = 'Admin One Vue 3 Tailwind'
+    const titleBase = 'Admin Two Vue 3 Tailwind'
     
     return titleChunk ? `${titleChunk} - ${titleBase}` : titleBase
   }
@@ -178,7 +178,7 @@ Let's copy `views/LoginView.vue` with a guest layout and `views/HomeView.vue` wi
 
 These pages will then be available under `/` and `/dashboard` url paths.
 
-#### LoginView.vue
+### LoginView.vue
 
 Copy `views/LoginView.vue` to `pages/index.vue`
 
