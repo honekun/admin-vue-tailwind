@@ -1,16 +1,16 @@
-# [Admin One &mdash; Free Vue 3.x Tailwind 3.x Admin Dashboard with dark mode](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)
+# [Admin Two &mdash; Free Vue 3.x Tailwind 3.x Admin Dashboard with dark mode](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)
 
-[![version](https://img.shields.io/github/v/release/justboil/admin-one-vue-tailwind)](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)
+[![version](https://img.shields.io/github/v/release/justboil/admin-two-vue-tailwind)](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)
 
-### Tailwind 3.x Vue 3.x with Vite or Nuxt or Laravel
+## Tailwind 3.x Vue 3.x with Vite or Nuxt or Laravel
 
-[![Free Vue 3 Tailwind 3 admin dashboard with dark mode](https://static.justboil.me/templates/one/repo-tailwind-vue.png)](https://justboil.github.io/admin-one-vue-tailwind/)
+[![Free Vue 3 Tailwind 3 admin dashboard with dark mode](https://honekun.com.mx/proyects/admin-two/repo-tailwind-vue.png)](https://justboil.github.io/admin-two-vue-tailwind/)
 
-[![Vue Tailwind white & dark styles](https://static.justboil.me/templates/one/repo-styles.png)](https://justboil.github.io/admin-one-vue-tailwind/)
+[![Vue Tailwind white & dark styles](https://honekun.com.mx/proyects/admin-two/repo-styles.png)](https://justboil.github.io/admin-two-vue-tailwind/)
 
-### Tailwind 3.x Vue 3.x with Vite or Nuxt or Laravel
+### Tailwind 3.x Vue 3.x with Vite or Nuxt or Laravel Info
 
-**Admin One** is simple, beautiful and free Vue.js 3.x Tailwind CSS 3.x admin dashboard. Nuxt 3.x or Laravel 9.x integrations available
+**Admin Two** is simple, beautiful and free Vue.js 3.x Tailwind CSS 3.x admin dashboard. Nuxt 3.x or Laravel 9.x integrations available
 
 * Built with **Vue.js 3**, **Tailwind CSS 3** framework & **Composition API**
 * **Vite** under the hood &mdash; [Info](https://vitejs.dev)
@@ -52,7 +52,7 @@
 
 This is **Tailwind Vue dashboard** version
 
-Looking for **Tailwind React TypeScript**? Check [Admin One - React TypeScript Tailwind dashboard](https://github.com/justboil/admin-one-react-tailwind) version
+Looking for **Tailwind React TypeScript**? Check [Admin Two - React TypeScript Tailwind dashboard](https://github.com/justboil/admin-two-react-tailwind) version
 
 ## Responsive layout
 
@@ -60,27 +60,27 @@ Looking for **Tailwind React TypeScript**? Check [Admin One - React TypeScript T
 
 Mobile layout with hidden aside menu and collapsable cards & tables
 
-[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://static.justboil.me/templates/one/one-tailwind-vue-mobile.png)](https://justboil.github.io/admin-one-vue-tailwind/)
+[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://honekun.com.mx/proyects/admin-two/one-tailwind-vue-mobile.png)](https://justboil.github.io/admin-two-vue-tailwind/)
 
 ### Small laptops 1024px
 
 Small laptop layout with show/hide aside menu option
 
-[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://static.justboil.me/templates/one/one-tailwind-vue-1024.png)](https://justboil.github.io/admin-one-vue-tailwind/)
+[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://honekun.com.mx/proyects/admin-two/one-tailwind-vue-1024.png)](https://justboil.github.io/admin-two-vue-tailwind/)
 
-[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://static.justboil.me/templates/one/one-tailwind-vue-1024-menu-open.png)](https://justboil.github.io/admin-one-vue-tailwind/)
+[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://honekun.com.mx/proyects/admin-two/one-tailwind-vue-1024-menu-open.png)](https://justboil.github.io/admin-two-vue-tailwind/)
 
 ### Laptops & desktops
 
 Classic layout with aside menus on the left
 
-[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://static.justboil.me/templates/one/one-tailwind-vue-widescreen.png)](https://justboil.github.io/admin-one-vue-tailwind/)
+[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://honekun.com.mx/proyects/admin-two/one-tailwind-vue-widescreen.png)](https://justboil.github.io/admin-two-vue-tailwind/)
 
 ## Demo
 
 ### Free Dashboard Demo
 
-https://justboil.github.io/admin-one-vue-tailwind/
+https://justboil.github.io/admin-two-vue-tailwind/
 
 ### Premium Dashboard Demo
 
@@ -100,9 +100,9 @@ Get code & install. Then `dev` or `build` with [Vite](#vite-builds) or integrate
 
 #### Get the repo
 
-* [Create new repo](https://github.com/justboil/admin-one-vue-tailwind/generate) with this template
+* [Create new repo](https://github.com/justboil/admin-two-vue-tailwind/generate) with this template
 * &hellip; or clone this repo on GitHub
-* &hellip; or [download .zip](https://github.com/justboil/admin-one-vue-tailwind/archive/master.zip) from GitHub
+* &hellip; or [download .zip](https://github.com/justboil/admin-two-vue-tailwind/archive/master.zip) from GitHub
 
 #### Install
 
@@ -114,19 +114,19 @@ Get code & install. Then `dev` or `build` with [Vite](#vite-builds) or integrate
 
 #### Hot-reloads for development
 
-```
+```sh
 npm run dev
 ```
 
 #### Builds and minifies for production
 
-```
+```sh
 npm run build
 ```
 
 #### Serves recently built app
 
-```
+```sh
 npm run preview
 ```
 
@@ -134,17 +134,17 @@ npm run preview
 
 #### Lint
 
-```
+```sh
 npm run lint
 ```
 
 ### Nuxt 3.x integration
 
-This dashboard can be integrated with Nuxt 3.x. [Check guide](https://github.com/justboil/admin-one-vue-tailwind/tree/master/.nuxt-guide) for more information
+This dashboard can be integrated with Nuxt 3.x. [Check guide](https://github.com/justboil/admin-two-vue-tailwind/tree/master/.nuxt-guide) for more information
 
 ### Laravel 9.x integration
 
-This dashboard can be integrated with Laravel 9.x Breeze Inertia + Vue.js stack. [Check guide](https://github.com/justboil/admin-one-vue-tailwind/tree/master/.laravel-guide) for more information
+This dashboard can be integrated with Laravel 9.x Breeze Inertia + Vue.js stack. [Check guide](https://github.com/justboil/admin-two-vue-tailwind/tree/master/.laravel-guide) for more information
 
 ## Docs
 
@@ -170,12 +170,12 @@ The issue list is reserved exclusively for bug reports and feature requests. Tha
 
 ## Licensing
 
-- Copyright &copy; 2019-2022 JustBoil.me (https://justboil.me)
-- Licensed under MIT
+* Copyright &copy; 2019-2022 JustBoil.me (https://justboil.me)
+* Licensed under MIT
 
 ## Useful Links
 
-- [JustBoil.me](https://justboil.me/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vue.js 3](https://v3.vuejs.org/)
-- [Vite](https://vitejs.dev)
+* [JustBoil.me](https://justboil.me/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Vue.js 3](https://v3.vuejs.org/)
+* [Vite](https://vitejs.dev)

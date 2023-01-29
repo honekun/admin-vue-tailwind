@@ -50,7 +50,7 @@ const click = (slug) => {
           >
             <div class="mb-3 md:mb-6">
               <img
-                :src="`https://static.justboil.me/templates/one/small/${style}-v3.png`"
+                :src="`https://honekun.com.mx/proyects/admin-two/small/${style}-v3.png`"
                 width="1280"
                 height="720"
               />

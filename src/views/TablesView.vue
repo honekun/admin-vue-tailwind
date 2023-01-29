@@ -20,7 +20,7 @@ import CardBoxComponentEmpty from "@/components/CardBoxComponentEmpty.vue";
     <SectionMain>
       <SectionTitleLineWithButton :icon="mdiTableBorder" title="Tables" main>
         <BaseButton
-          href="https://github.com/justboil/admin-one-vue-tailwind"
+          href="https://github.com/justboil/admin-two-vue-tailwind"
           target="_blank"
           :icon="mdiGithub"
           label="Star on GitHub"

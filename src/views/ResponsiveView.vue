@@ -13,7 +13,7 @@ import LayoutAuthenticated from "@/layouts/LayoutAuthenticated.vue";
         class="md:w-10/12 shadow-2xl md:mx-auto rounded-3xl border-8 border-white overflow-hidden"
       >
         <img
-          src="https://static.justboil.me/templates/one/one-tailwind-vue-mobile.png"
+          src="https://honekun.com.mx/proyects/admin-two/placeholder_admin_two.png"
           class="block"
         />
       </div>
@@ -26,7 +26,7 @@ import LayoutAuthenticated from "@/layouts/LayoutAuthenticated.vue";
         class="md:w-10/12 shadow-2xl md:mx-auto rounded-3xl border-8 border-white overflow-hidden"
       >
         <img
-          src="https://static.justboil.me/templates/one/one-tailwind-vue-1024.png"
+          src="https://honekun.com.mx/proyects/admin-two/placeholder_admin_two.png"
           class="block"
         />
       </div>
@@ -37,7 +37,7 @@ import LayoutAuthenticated from "@/layouts/LayoutAuthenticated.vue";
         class="md:w-10/12 shadow-2xl md:mx-auto rounded-3xl border-8 border-white overflow-hidden"
       >
         <img
-          src="https://static.justboil.me/templates/one/one-tailwind-vue-1024-menu-open.png"
+          src="https://honekun.com.mx/proyects/admin-two/placeholder_admin_two.png"
           class="block"
         />
       </div>
@@ -50,7 +50,7 @@ import LayoutAuthenticated from "@/layouts/LayoutAuthenticated.vue";
         class="md:w-10/12 shadow-2xl md:mx-auto rounded-3xl border-8 border-white overflow-hidden"
       >
         <img
-          src="https://static.justboil.me/templates/one/one-tailwind-vue-widescreen.png"
+          src="https://honekun.com.mx/proyects/admin-two/placeholder_admin_two.png"
           class="block"
         />
       </div>
